@@ -1,0 +1,56 @@
+.about-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.about-container h1 {
+  text-align: center;
+  margin-bottom: 3rem;
+  color: #333;
+}
+
+.expertise-section,
+.experience-section,
+.authority-section,
+.trust-section {
+  margin-bottom: 3rem;
+  padding: 2rem;
+  background: #f8f9fa;
+  border-left: 4px solid var(--primary-color);
+  border-radius: 4px;
+}
+
+.expertise-section h2,
+.experience-section h2,
+.authority-section h2,
+.trust-section h2 {
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+.expertise-section ul,
+.experience-section ul,
+.authority-section ul,
+.trust-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.expertise-section li,
+.experience-section li,
+.authority-section li,
+.trust-section li {
+  padding: 0.5rem 0;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.expertise-section li:before,
+.experience-section li:before,
+.authority-section li:before,
+.trust-section li:before {
+  content: '→';
+  position: absolute;
+  left: 0;
+  color: var(--primary-color);
+}

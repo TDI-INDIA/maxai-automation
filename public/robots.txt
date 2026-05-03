@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Allow: /maxai-automation/
+
+Sitemap: https://TDI-INDIA.github.io/maxai-automation/sitemap.xml

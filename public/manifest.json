@@ -1,0 +1,23 @@
+{
+  "short_name": "MaxAI",
+  "name": "MaxAI Automation",
+  "description": "Advanced AI automation solutions",
+  "icons": [
+    {
+      "src": "/maxai-automation/logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/maxai-automation/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "https://TDI-INDIA.github.io/maxai-automation/#/",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "scope": "/maxai-automation/",
+  "theme_color": "#000000"
+}
